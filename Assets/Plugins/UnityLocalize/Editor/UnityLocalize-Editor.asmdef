@@ -1,10 +1,7 @@
 {
     "name": "UnityLocalize-Editor",
     "references": [
-        "GUID:31ddbf45e99862d4096cc54c3fb9b3b6",
-        "GUID:444a530575c54e54680959a197f76a4e",
-        "GUID:734f4f39c04ab8b4fa24c8646904eb57",
-        "GUID:22e47b2f4a760864d96204bf1fabeadb"
+        "GUID:315d45f997bd20045960ca3ff9c255ae"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [
