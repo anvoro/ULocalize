@@ -1,0 +1,3 @@
+[submodule "UEnvironment"]
+	path = UEnvironment
+	url = https://github.com/anvoro/UEnvironment
