@@ -286,6 +286,15 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="Environment">
+      <HintPath>C:/Users/Despin/Documents/GitHub/ULocalize/Assets/Plugins/Environment.dll</HintPath>
+    </Reference>
+    <Reference Include="EDraw-Editor">
+      <HintPath>C:/Users/Despin/Documents/GitHub/ULocalize/Assets/Plugins/UnityLocalize/Editor/EDraw-Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Environment-Editor">
+      <HintPath>C:/Users/Despin/Documents/GitHub/ULocalize/Assets/Plugins/UnityLocalize/Editor/Environment-Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/Despin/Documents/GitHub/ULocalize/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
@@ -300,15 +309,6 @@
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>C:/Users/Despin/Documents/GitHub/ULocalize/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="Environment">
-      <HintPath>C:/Users/Despin/Documents/GitHub/ULocalize/Assets/Plugins/Environment.dll</HintPath>
-    </Reference>
-    <Reference Include="EDraw-Editor">
-      <HintPath>C:/Users/Despin/Documents/GitHub/ULocalize/Assets/Plugins/UnityLocalize/Editor/EDraw-Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Environment-Editor">
-      <HintPath>C:/Users/Despin/Documents/GitHub/ULocalize/Assets/Plugins/UnityLocalize/Editor/Environment-Editor.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
