@@ -7,3 +7,8 @@
 /Logs
 /Temp
 ULocalize.sln.DotSettings.user
+EDraw-Editor.csproj
+Environment.csproj
+Environment-Editor.csproj
+Assets/Plugins/EditorDrawHelper/
+Assets/Plugins/Environment/

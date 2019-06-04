@@ -1,7 +1,10 @@
 {
     "name": "UnityLocalize-Editor",
     "references": [
-        "UnityLocalize"
+        "Environment-Editor",
+        "UnityLocalize",
+        "EDraw-Editor",
+        "Environment"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [

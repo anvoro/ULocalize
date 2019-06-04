@@ -303,15 +303,6 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="Environment">
-      <HintPath>C:/Users/Despin/Documents/GitHub/ULocalize/Assets/Plugins/Environment.dll</HintPath>
-    </Reference>
-    <Reference Include="EDraw-Editor">
-      <HintPath>C:/Users/Despin/Documents/GitHub/ULocalize/Assets/Plugins/UnityLocalize/Editor/EDraw-Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Environment-Editor">
-      <HintPath>C:/Users/Despin/Documents/GitHub/ULocalize/Assets/Plugins/UnityLocalize/Editor/Environment-Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/Despin/Documents/GitHub/ULocalize/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
@@ -683,9 +674,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Environment-Editor.csproj">
+      <Project>{67AB7EE8-491F-A3C7-5111-0A79962C6ECF}</Project>
+      <Name>Environment-Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityLocalize.csproj">
       <Project>{39C1B791-6A57-F56B-2C39-2BECE5CD9A31}</Project>
       <Name>UnityLocalize</Name>
+    </ProjectReference>
+    <ProjectReference Include="EDraw-Editor.csproj">
+      <Project>{5EFF1B67-234B-C9D6-1EE8-87ECF93B32D4}</Project>
+      <Name>EDraw-Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Environment.csproj">
+      <Project>{C464E660-5C76-7DF9-057A-7B9DF509F003}</Project>
+      <Name>Environment</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
