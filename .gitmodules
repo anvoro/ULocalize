@@ -1,3 +1,6 @@
 [submodule "EDraw"]
 	path = EDraw
 	url = https://github.com/anvoro/EDraw
+[submodule "UEnvironment"]
+	path = UEnvironment
+	url = https://github.com/anvoro/UEnvironment
