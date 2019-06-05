@@ -1,0 +1,3 @@
+[submodule "EDraw"]
+	path = EDraw
+	url = https://github.com/anvoro/EDraw
