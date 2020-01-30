@@ -22,6 +22,8 @@ namespace UnityLocalize
         public static bool IsDefaultCulture { get; private set; } = true;
         public static IPluralForm PluralForm { get; private set; }
 
+        public static event Action OnCultureChange;
+
         /// <summary>
         /// Get available translations
         /// </summary>
@@ -75,6 +77,8 @@ namespace UnityLocalize
             IsDefaultCulture = true;
 
             PluralForm = PluralFormGenerator.CreateForm(defaultCulture);
+
+            OnCultureChange?.Invoke();
         }
 
         /// <summary>
@@ -102,6 +106,8 @@ namespace UnityLocalize
 
             var translationDictionary = translationDatabase.GetTranslationDictionary(CurrentTranslation);
             LocalizationCache.Init(translationDictionary);
+
+            OnCultureChange?.Invoke();
         }
     }
 }
